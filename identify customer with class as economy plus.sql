@@ -1,0 +1,1 @@
+select count(customer_id) from passengers_on_flights group by class_id having class_id = "Economy Plus"

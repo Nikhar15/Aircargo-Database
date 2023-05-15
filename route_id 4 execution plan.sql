@@ -1,0 +1,2 @@
+select distinctrow concat(customer.first_name," ",customer.last_name) as full_name, passengers_on_flights.* from customer,passengers_on_flights 
+where customer.customer_id = passengers_on_flights.customer_id and passengers_on_flights.route_id = 4

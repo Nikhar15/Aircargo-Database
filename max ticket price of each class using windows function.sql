@@ -1,0 +1,1 @@
+select distinctrow class_id, max(Price_per_ticket) over (partition by class_id) as maximum_ticket_price from ticket_details

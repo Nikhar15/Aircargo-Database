@@ -1,0 +1,1 @@
+select aircraft_id, sum(Price_per_ticket) as total_price from ticket_details group by aircraft_id with rollup 

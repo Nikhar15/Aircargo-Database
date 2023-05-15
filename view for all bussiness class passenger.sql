@@ -1,0 +1,1 @@
+SELECT * FROM air_cargo_database.`business class passenger`;
